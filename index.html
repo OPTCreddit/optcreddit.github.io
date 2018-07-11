@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OPTC Flair Selector</title>
+  <link rel="icon" type="image/x-icon" href="black.ico">
+
+  <!--stylesheets-->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/flairs.css" type="text/css" media="all" />
+  
+  <!--scripts-->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script type="text/javascript" src="js/flairs.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+
+  <!--meta-->
+  <meta charset="utf-8">
+  <meta name="author" content="antonlabz">
+  <meta name="description" content="Flair Selector for /r/OnePieceTC">
+</head>
+
+<body>
+  <noscript>JavaScript is required to run this page.</noscript>
+
+  <!--back to top button-->
+  <div class="backtop">
+    <a href="#" id="backtop"></a>
+  </div>
+
+  <!--FIRST SECTION WITH DESCRIPTION ETC-->
+  <div class="container1">
+    <div class="flair" id="flair" style="float: none"></div>
+
+    <div style="text-align: left; position: relative;">
+      <input type="text" id="text" placeholder="Flair text here..">
+    </div>
+    <br>
+
+    <!--send request button div-->
+    <div onclick="sendflair()" id="button">SEND FLAIR REQUEST</div>
+
+    <br>
+    <!--user notes-->
+    <div class="textarea">
+      <p><strong>To assign yourself a flair, you can either select the unit's image or search them directly</strong> (<i>below</i>).</p>
+      <p><i>Leave the text box blank if you don't want flair text.</i></p>
+      <p class="dbtip">Don't know the unit ID? Search the database <a href="http://optc-db.github.io/characters/#/search/" target="_blank">here</a>.</p>
+      <hr>
+      <p class="sendtip">After you "SEND FLAIR REQUEST", you will be redirected to a reddit page. <br>DON'T CHANGE ANYTHING and just hit send.</p>
+    </div>
+
+    <!--search bar-->
+    <form onsubmit="fsearch();return false;" class="box" autocomplete="off">
+      <input type="search" id="search" placeholder="Search unit ID..." required />
+    </form>
+  </div>
+
+  <p>
+
+    <!-- start flairs -->
+    <div id="container2" class="container2">
+      <div id="content"></div>
+      <hr>
+      <div id="special"></div>
+      <div class="bgbot"></div>
+    </div>
+  </div>
+</body>
+
+<footer>
+  <div>
+    2016 -
+    <script>
+    document.write(new Date().getFullYear());
+    </script>.
+    Developed by <a href="https://www.reddit.com/user/antonlabz/">antonlabz</a>.
+  </div>
+</footer>
+</html>
