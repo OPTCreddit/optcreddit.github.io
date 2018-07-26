@@ -10,7 +10,7 @@ loadPage = function() {
 		var enter = document.getElementById('content');
 
 		//replace with latest unit number
-		for (i=1; i<=2163; i++) {
+		for (i=1; i<=2193; i++) {
 			unit_id = i;
 
 			if (i>=1 && i<=800) {
@@ -43,6 +43,8 @@ loadPage = function() {
 		var enter2 = document.getElementById('special');
 
 		var name = {
+			"2214" : "placeholder",
+			"2215" : "placeholder",
 			"7001" : "placeholder",
 			"7002" : "placeholder",
 			"7003" : "placeholder",
