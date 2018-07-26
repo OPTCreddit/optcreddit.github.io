@@ -37,7 +37,7 @@ function fselect(vnum) {
     modNum = vnum % 800;
 
   //assigns correct spritesheet
-  if (isNaN(vnum) || vnum >= 2214) {
+  if (isNaN(vnum) || vnum > 5000) {
     sheet = 'z';
     choice = vnum+' '+sheet;
 

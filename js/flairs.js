@@ -43,8 +43,8 @@ loadPage = function() {
 		var enter2 = document.getElementById('special');
 
 		var name = {
-			"2214" : "placeholder",
-			"2215" : "placeholder",
+			"f2214" : "placeholder",
+			"f2215" : "placeholder",
 			"7001" : "placeholder",
 			"7002" : "placeholder",
 			"7003" : "placeholder",
