@@ -10,7 +10,7 @@ loadPage = function() {
 		var enter = document.getElementById('content');
 
 		//replace with latest unit number
-		for (i=1; i<=2193; i++) {
+		for (i=1; i<=2232; i++) {
 			unit_id = i;
 
 			if (i>=1 && i<=800) {
@@ -43,20 +43,18 @@ loadPage = function() {
 		var enter2 = document.getElementById('special');
 
 		var name = {
-			"f2214" : "placeholder",
-			"f2215" : "placeholder",
-			"f1983a" : "placeholder",
-			"f1983b" : "placeholder",
-			"f1984a" : "placeholder",
-			"f1984b" : "placeholder",
-			"f1985a" : "placeholder",
-			"f1985b" : "placeholder",
-			"f2000a" : "placeholder",
-			"f2000b" : "placeholder",
-			"f2180a" : "placeholder",
-			"f2180b" : "placeholder",
-			"f2181a" : "placeholder",
-			"f2181b" : "placeholder",
+			"4000a" : "placeholder",
+			"4000b" : "placeholder",
+			"4001a" : "placeholder",
+			"4001b" : "placeholder",
+			"4002a" : "placeholder",
+			"4002b" : "placeholder",
+			"4003a" : "placeholder",
+			"4003b" : "placeholder",
+			"4004a" : "placeholder",
+			"4004b" : "placeholder",
+			"4005a" : "placeholder",
+			"4005b" : "placeholder",
 			"5011" : "placeholder",
 			"5012" : "placeholder",
 			"5013" : "placeholder",
@@ -97,6 +95,9 @@ loadPage = function() {
 			"9029" : "placeholder",
 			"9030" : "placeholder",
 			"9031" : "placeholder",
+			"dessert" : "placeholder",
+			"dessert1" : "placeholder",
+			"dessert2" : "placeholder",
 			"DrinkL" : "placeholder",
 			"DrinkM" : "placeholder",
 			"DrinkS" : "placeholder",
