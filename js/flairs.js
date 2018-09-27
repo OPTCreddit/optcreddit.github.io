@@ -10,7 +10,7 @@ loadPage = function() {
 		var enter = document.getElementById('content');
 
 		//replace with latest unit number
-		for (i=1; i<=2244; i++) {
+		for (i=1; i<=2287; i++) {
 			unit_id = i;
 
 			if (i>=1 && i<=800) {
@@ -55,8 +55,6 @@ loadPage = function() {
 			"4004b" : "placeholder",
 			"4005a" : "placeholder",
 			"4005b" : "placeholder",
-			"5011" : "placeholder",
-			"5012" : "placeholder",
 			"5013" : "placeholder",
 			"5014" : "placeholder",
 			"5015" : "placeholder",
@@ -122,7 +120,8 @@ loadPage = function() {
 			"S5" : "placeholder",
 			"ticket1" : "placeholder",
 			"ticket2" : "placeholder",
-			"ticket3" : "placeholder"
+			"ticket3" : "placeholder",
+			"ticket4" : "placeholder"
 		}
 
 		//creates HTML for special flairs
