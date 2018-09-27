@@ -99,6 +99,7 @@ loadPage = function() {
 			"DrinkL" : "placeholder",
 			"DrinkM" : "placeholder",
 			"DrinkS" : "placeholder",
+			"homie" : "placeholder",
 			"homie1" : "placeholder",
 			"homie2" : "placeholder",
 			"homie3" : "placeholder",
