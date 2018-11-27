@@ -32,10 +32,10 @@ margin:0;
 margin-top:8px;
 }
 
-i {color:#48ff68;}
+i {color:#63ff7e;}
 
 /*changes font size on firefox*/
-@-moz-document url-prefix() { 
+@-moz-document url-prefix() {
   #donate p {
      font-size: 13px;
   }

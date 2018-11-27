@@ -115,26 +115,6 @@ function fsearch() {
   document.getElementById("flair").className = "flair " + pname;
 }
 
-
-
-
-//show donation text
-function show(){
-  document.getElementById('donate').style.height = "190px";
-  document.getElementById('show').style.height = "0";
-  document.getElementById('show').style.overflow = "hidden";
-}
-
-//hide donation text
-function hide(){
-  document.getElementById('donate').style.height = "60px";
-  document.getElementById('show').style.visibility = "visible";
-  document.getElementById('show').style.height = "16px";
-}
-
-
-
-
 $(document).ready(function() {
   $('#backtop').hide();
 
