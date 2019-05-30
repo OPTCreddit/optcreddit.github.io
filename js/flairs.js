@@ -10,7 +10,7 @@ loadPage = function() {
 		var enter = document.getElementById('content');
 
 		//replace with latest unit number
-		for (i=1; i<=2552; i++) {
+		for (i=1; i<=2569; i++) {
 			unit_id = i;
 
 			if (i>=1 && i<=800) {
@@ -99,6 +99,10 @@ loadPage = function() {
 			'4017b': 'placeholder',
 			'4017c': 'placeholder',
 			'4017d': 'placeholder',
+			'4018a': 'placeholder',
+			'4018b': 'placeholder',
+			'4018c': 'placeholder',
+			'4018d': 'placeholder',
 			'5013': 'placeholder',
 			'5014': 'placeholder',
 			'5015': 'placeholder',
