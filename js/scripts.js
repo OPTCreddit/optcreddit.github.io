@@ -2,7 +2,20 @@ var pname = '';
 var choice = '';
 var sheet = '';
 
+//workaround to get checkbox and text box working together
+function globalText() {
+ txt = (document.getElementById("text").value);
+}
 
+//set same flair text
+function setSame(checkbox) {
+  var flairText = (document.getElementById("text").value);
+  if (checkbox.checked) {
+    txt = ">!same<?";
+  } else {
+    txt = flairText;
+  }
+}
 
 //send flair selection to bot
 function sendflair() {
@@ -13,11 +26,14 @@ function sendflair() {
     return;
   }
 
-  txt = (document.getElementById("text").value);
+  if (txt == ">!same<?") {
+    //do nothing
+  } else {
+    txt = (document.getElementById("text").value);
+  }
+
   window.open("http://www.reddit.com/message/compose/?to=anton_bot&subject=flair&message=" + choice + "," + txt);
 }
-
-
 
 //CURRENT SELECTION
 function fselect(vnum) {

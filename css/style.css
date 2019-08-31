@@ -34,6 +34,21 @@ margin-top:8px;
 
 i {color:#63ff7e;}
 
+#sametext {
+  display: block;
+  color:#fff;
+}
+
+#sametext input {
+  width: auto;
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  transform: scale(1.5);
+  transform: scale(1.5);
+}
+
 /*changes font size on firefox*/
 @-moz-document url-prefix() {
   #donate p {
@@ -96,7 +111,7 @@ margin-top:-130px;
 background-color:transparent!important;
 cursor:default!important;
 position:relative;
-top:10px;
+top: 5px;
 }
 
 input {
@@ -136,7 +151,7 @@ text-align:center;
 cursor:pointer;
 font-size:14px;
 font-weight:600;
-margin-top:10px;
+margin-top:5px;
 transition:.5s;
 padding:3px 0;
 }

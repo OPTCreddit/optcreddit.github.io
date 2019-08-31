@@ -30,7 +30,7 @@
   <meta name="description" content="Flair Selector for /r/OnePieceTC">
 </head>
 
-<body>
+<body onload="globalText()">
   <noscript>JavaScript is required to run this page.</noscript>
 
   <!--back to top button-->
@@ -42,10 +42,12 @@
   <div class="container1">
     <div class="flair" id="flair" style="float: none"></div>
 
-    <div style="text-align: left; position: relative;">
+    <div style="text-align: left; position: relative; top: -10px;">
       <input type="text" id="text" placeholder="Flair text here..">
     </div>
     <br>
+
+    <span id="sametext"><input type="checkbox" name="sametext" value="sametext" onchange="setSame(this)"> Keep existing flair text?<br></span>
 
     <!--send request button div-->
     <div onclick="sendflair()" id="button">SEND FLAIR REQUEST</div>
@@ -54,10 +56,10 @@
     <!--user notes-->
     <div class="textarea">
       <p><strong>To assign yourself a flair, you can either select the unit's image or search them directly</strong> (<i>below</i>).</p>
-      <p><i>Leave the text box blank if you don't want flair text.</i></p>
+      <p><i>Leave the text box empty if you want your flair text to be blank.</i></p>
       <p class="dbtip">Don't know the unit ID? Search the database <a href="http://optc-db.github.io/characters/#/search/" target="_blank">here</a>.</p>
       <hr>
-      <p class="sendtip">After you "SEND FLAIR REQUEST", you will be redirected to a reddit page. <br>DON'T CHANGE ANYTHING and just hit send.</p>
+      <p class="sendtip">After you "SEND FLAIR REQUEST" above, you will be redirected to a reddit page (requires that you are logged in). <br>Simply hit send and don't change anything.</p>
     </div>
 
     <!--search bar-->
