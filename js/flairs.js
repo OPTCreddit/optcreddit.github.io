@@ -10,7 +10,7 @@ loadPage = function() {
 		var enter = document.getElementById('content');
 
 		//replace with latest unit number
-		for (i=1; i<=2639; i++) {
+		for (i=1; i<=2682; i++) {
 			unit_id = i;
 
 			if (i>=1 && i<=800) {
