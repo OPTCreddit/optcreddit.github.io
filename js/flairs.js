@@ -338,10 +338,10 @@ loadPage = function() {
 				enter2.appendChild(flair_special);
 				z++;
 			}
-		}*/
-	}
+		}
+	}*/
 	loadFlairs();
-	loadSpecial();
+	//loadSpecial();
 }
 
 document.addEventListener('DOMContentLoaded', loadPage, false);
