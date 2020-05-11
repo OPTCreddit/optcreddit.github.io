@@ -10,7 +10,7 @@ loadPage = function() {
 		var enter = document.getElementById('content');
 
 		//replace with latest unit number
-		for (i=1; i<=2903; i++) {
+		for (i=1; i<=2976; i++) {
 			unit_id = i;
 
 			if (i>=1 && i<=800) {
@@ -38,7 +38,7 @@ loadPage = function() {
 		}
 	}
 
-	//SPECIAL FLAIRS
+	/*//SPECIAL FLAIRS
 	loadSpecial = function() {
 		var enter2 = document.getElementById('special');
 
@@ -338,7 +338,7 @@ loadPage = function() {
 				enter2.appendChild(flair_special);
 				z++;
 			}
-		}
+		}*/
 	}
 	loadFlairs();
 	loadSpecial();
