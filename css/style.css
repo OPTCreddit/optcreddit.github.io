@@ -28,6 +28,7 @@ font-family: -apple-system, San Francisco Display, Helvetica Neue, Segoe UI, Hel
 text-align:center;
 background:url(../images/bg.jpg);
 background-attachment:fixed;
+background-size:cover;
 margin:0;
 margin-top:8px;
 }
