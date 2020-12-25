@@ -28,6 +28,10 @@ loadPage = function() {
 				id = id % 800 + 1;
 				flair_class = 's4';
 			}
+			else if (i>3200) {
+				id = id % 800 + 1;
+				flair_class = 's5';
+			}
 
 			//define HTML for flairs
 			var flair_choice = document.createElement('span');
