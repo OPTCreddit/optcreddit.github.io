@@ -53,18 +53,7 @@ function fselect(vnum) {
     modNum = vnum % 800;
 
   //assigns correct spritesheet
-  if (isNaN(vnum) || vnum >= 4000) {
-    sheet = 'z';
-    choice = vnum+' '+sheet;
-
-    //get classes and split
-    zpre = current.className;
-    zpos = zpre.split(' flair-');
-
-    choice = zpos[1]+' '+sheet;
-    pname = 'flair-'+zpos[1]+' flair-'+sheet;
-  }
-  else if (vnum > 3200) {
+  if (vnum > 3200) {
     sheet = 's5';
     pname = 'flair-'+modNum+' flair-'+sheet;
 
