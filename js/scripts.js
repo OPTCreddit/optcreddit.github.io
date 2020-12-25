@@ -96,7 +96,12 @@ function fsearch() {
     modNum = search % 800;
 
   //assigns correct spritesheet
-  if (search > 2400) {
+  if (search > 3200) {
+    sheet = 's5';
+    pname = 'flair-'+modNum+' flair-'+sheet;
+    choice = modNum+' '+sheet;
+  }
+  else if (search > 2400) {
     sheet = 's4';
     pname = 'flair-'+modNum+' flair-'+sheet;
     choice = modNum+' '+sheet;
