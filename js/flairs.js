@@ -24,7 +24,7 @@ loadPage = function() {
 				id = id % 800 + 1;
 				flair_class = 's3';
 			}
-			else if (i>2400) {
+			else if (i>2400 && i<=3200) {
 				id = id % 800 + 1;
 				flair_class = 's4';
 			}
