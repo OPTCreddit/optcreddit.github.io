@@ -64,6 +64,17 @@ function fselect(vnum) {
     choice = zpos[1]+' '+sheet;
     pname = 'flair-'+zpos[1]+' flair-'+sheet;
   }
+  else if (vnum > 3200) {
+    sheet = 's5';
+    pname = 'flair-'+modNum+' flair-'+sheet;
+
+    //get classes and split
+    zpre = current.className;
+    zpos = zpre.split(' flair-');
+
+    choice = zpos[1]+' '+sheet;
+    pname = 'flair-'+zpos[1]+' flair-'+sheet;
+  }
   else if (vnum > 2400) {
     sheet = 's4';
     pname = 'flair-'+modNum+' flair-'+sheet;
