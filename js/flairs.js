@@ -3,7 +3,6 @@ loadPage = function() {
 	var flair_class = '';
 	var unit_id = 0;
 	var id = 0;
-	var z = 1;
 
 	//MAIN FLAIRS
 	loadFlairs = function() {
@@ -13,23 +12,23 @@ loadPage = function() {
 		for (i=1; i<=3209; i++) {
 			unit_id = i;
 
-			if (i>=1 && i<=800) {
-				id = id % 800 + 1;
+			if (i>=1 && i<=700) {
+				id = id % 700 + 1;
 			}
-			else if (i>800 && i<=1600) {
-				id = id % 800 + 1;
+			else if (i>700 && i<=1400) {
+				id = id % 700 + 1;
 				flair_class = 's2';
 			}
-			else if (i>1600 && i<=2400) {
-				id = id % 800 + 1;
+			else if (i>1400 && i<=2100) {
+				id = id % 700 + 1;
 				flair_class = 's3';
 			}
-			else if (i>2400 && i<=3200) {
-				id = id % 800 + 1;
+			else if (i>2100 && i<=2800) {
+				id = id % 700 + 1;
 				flair_class = 's4';
 			}
-			else if (i>3200) {
-				id = id % 800 + 1;
+			else if (i>2800) {
+				id = id % 700 + 1;
 				flair_class = 's5';
 			}
 

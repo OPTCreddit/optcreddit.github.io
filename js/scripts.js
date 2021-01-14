@@ -47,28 +47,28 @@ function fselect(vnum) {
   current.className += " selected";
 
   //modulo to 'reset' the flair number
-  if (modNum = vnum % 800 == 0)
-    modNum = 800;
+  if (modNum = vnum % 700 == 0)
+    modNum = 700;
   else
-    modNum = vnum % 800;
+    modNum = vnum % 700;
 
   //assigns correct spritesheet
-  if (vnum > 3200) {
+  if (vnum > 2700) {
     sheet = 's5';
     pname = 'flair-'+modNum+' flair-'+sheet;
     choice = modNum+' '+sheet;
   }
-  else if (vnum > 2400) {
+  else if (vnum > 2100) {
     sheet = 's4';
     pname = 'flair-'+modNum+' flair-'+sheet;
     choice = modNum+' '+sheet;
   }
-  else if (vnum > 1600) {
+  else if (vnum > 1400) {
     sheet = 's3';
     pname = 'flair-'+modNum+' flair-'+sheet;
     choice = modNum+' '+sheet;
   }
-  else if (vnum > 800) {
+  else if (vnum > 700) {
     sheet = 's2';
     pname = 'flair-'+modNum+' flair-'+sheet;
     choice = modNum+' '+sheet;
@@ -83,35 +83,33 @@ function fselect(vnum) {
 }
 
 
-
-
 //SEARCH FORM
 function fsearch() {
   var search = document.getElementById("search").value;
 
   //modulo to 'reset' the flair number
-  if (modNum = search % 800 == 0)
-    modNum = 800;
+  if (modNum = search % 700 == 0)
+    modNum = 700;
   else
-    modNum = search % 800;
+    modNum = search % 700;
 
   //assigns correct spritesheet
-  if (search > 3200) {
+  if (search > 2800) {
     sheet = 's5';
     pname = 'flair-'+modNum+' flair-'+sheet;
     choice = modNum+' '+sheet;
   }
-  else if (search > 2400) {
+  else if (search > 2100) {
     sheet = 's4';
     pname = 'flair-'+modNum+' flair-'+sheet;
     choice = modNum+' '+sheet;
   }
-  else if (search > 1600) {
+  else if (search > 1400) {
     sheet = 's3';
     pname = 'flair-'+modNum+' flair-'+sheet;
     choice = modNum+' '+sheet;
   }
-  else if (search > 800) {
+  else if (search > 700) {
     sheet = 's2';
     pname = 'flair-'+modNum+' flair-'+sheet;
     choice = modNum+' '+sheet;
