@@ -11,7 +11,7 @@ function globalText() {
 function setSame(checkbox) {
   var flairText = (document.getElementById("text").value);
   if (checkbox.checked) {
-    txt = ">!same<?";
+    txt = ">!same<";
   } else {
     txt = flairText;
   }
@@ -26,7 +26,7 @@ function sendflair() {
     return;
   }
 
-  if (txt == ">!same<?") {
+  if (txt == ">!same<") {
     //do nothing
   } else {
     txt = (document.getElementById("text").value);
