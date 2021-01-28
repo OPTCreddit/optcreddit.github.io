@@ -202,19 +202,18 @@ text-decoration:none;
 color:#c1c1c1;
 }
 
-.donate {width:74px;padding:0;}
+input.donate  {width:85px;padding:0;}
 
 #donate {
 position:absolute;
-left:80px;
+left:10px;
 background:#fff;
 border-radius:5px;
 width:230px;
 padding:3px;
 padding-top:10px;
-height:60px;
+height:90px;
 overflow:hidden;
-transition: .1s height linear;
 }
 
 @media screen and (max-width: 1030px) { #donate {left:5%;} }
