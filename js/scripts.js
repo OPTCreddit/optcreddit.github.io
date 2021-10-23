@@ -32,7 +32,7 @@ function sendflair() {
     txt = (document.getElementById("text").value);
   }
 
-  window.open("http://www.reddit.com/message/compose/?to=anton_bot&subject=flair&message=" + choice + "," + txt);
+  window.open("http://www.reddit.com/message/compose/?to=aotius_bot&subject=flair&message=" + choice + "," + txt);
 }
 
 //CURRENT SELECTION
